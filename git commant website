@@ -1,0 +1,16 @@
+https://www.geeksforgeeks.org/how-to-install-configure-and-use-git-on-ubuntu/
+Step 1: Open the Terminal and  type  sudo apt-get install git
+Step 2: Goto www.github.com and sign into your account. If you’re a new user, you can simply sign-up. (You can also use www.bitbucket.org as an alternative,but we will use github here).
+
+You’ll have a username from here. Let us say that it’s your_username
+
+
+CONFIGURING GIT:
+
+Step 1: Go back to the terminal and type this to configure git
+
+git config –global user.name “your_username”
+
+Step 2: Now type this to link your email too.
+
+git config –global user.email “your_emailid”
